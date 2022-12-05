@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.whole{
+    height: 160vh;
+    width: 100%;
+}
+.nav-2{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(0, 202, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-2-mid{
+    height: 10vh;
+    width: 80%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    font-display: row;
+}
+
+.logo{
+    height: 10vh;
+    width: 20%;
+    /* background-color: rgb(18, 201, 43); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 55%;
+}
+
+.nav-2-right{
+    height: 10vh;
+    width: 50%;
+    /* background-color: rgb(242, 255, 0); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-2-right li a{
+    font-size: 21px;
+    text-decoration: none;
+    color:#fff;
+}
+
+
+
+
+
+.container-destination {
+    /* height: 100vh; */
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.destination-mid{
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(37, 193, 131);
+    background-image: url(../imgs/RE4wwtz.jfif);
+    background-attachment: fixed;
+   background-size: cover;
+}
+
+.destination-mid-opacity{
+    height: 30vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.463)
+}
+
+.destination-mid h1{
+    font-family: sans-serif;
+    font-size: 100px;
+    text-align: center;
+    line-height: 30vh;
+    color: #ffffffa6;
+}
+
+ 
+
+.destination-box-1 {
+    height: 40vh;
+    width: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-1 {
+    height: 35vh;
+    width: 25%;
+    /* background-color: rgb(183, 245, 207); */
+    background-image: url(../imgs/annapurna-base-camp.jpg);
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+
+.box-2 {
+    height: 35vh;
+    width: 25%;
+    /* background-color: rgb(161, 19, 114); */
+    background-image: url(../imgs/kathmandu.jfif);
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+
+
+
+.box-3 {
+    height: 35vh;
+    width: 25%;
+    /* background-color: rgb(255, 255, 0); */
+    background-image: url(../imgs/upper\ mustang.jpg);
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+
+
+.destination-box-2 {
+    height: 40vh;
+    width: 100%;
+    /* background-color: rgb(39, 19, 98); */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.box-4 {
+    height: 35vh;
+    width: 25%;
+    /* background-color: rgb(33, 194, 151); */
+    background-image: url(../imgs/ghorepani\ poon\ hill.jpg);
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+
+
+
+.box-5 {
+    height: 35vh;
+    width: 25%;
+    /* background-color: rgb(255, 0, 30); */
+    background-image: url(../imgs/manasulu.jpg);
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+
+
+
+.box-6 {
+    height: 35vh;
+    width: 25%;
+    /* background-color: rgb(247, 163, 226); */
+    background-image: url(../imgs/rani\ mahal.jpg);
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+
+
+.destination-box-3 {
+    height: 40vh;
+    width: 100%;
+    /* background-color: rgb(18, 160, 91); */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.box-7 {
+    height: 35vh;
+    width: 25%;
+    /* background-color: rgb(0, 255, 98); */
+    background-image: url(../imgs/janakpur.jpeg);
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+
+.box-8 {
+    height: 35vh;
+    width: 25%;
+    /* background-color: rgb(161, 19, 114); */
+    background-image: url(../imgs/phewa-lake.jpg);
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+
+
+
+.box-9 {
+    height: 35vh;
+    width: 25%;
+    /* background-color: rgb(255, 255, 0); */
+    background-image: url(../imgs/lumini.jfif);
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+
+@media (max-width:900px) {
+    .destination-box-1 {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .common {
+        width: 80%;
+    }
+
+    .destination-box-2 {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+
+    .destination-box-3 {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+}
